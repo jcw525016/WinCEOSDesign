@@ -1,0 +1,4 @@
+   	[HKEY_LOCAL_MACHINE\Drivers\TouchKit]
+;   		"FLAGS"=dword:1
+
+	#include "C:\EETICEDB-USB\wince700\eetiTool\language_e.reg"

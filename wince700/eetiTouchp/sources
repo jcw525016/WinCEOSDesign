@@ -1,0 +1,23 @@
+_COMMONPUBROOT=$(_PROJECTROOT)\cesysgen
+__PROJROOT=$(_PROJECTROOT)
+RELEASETYPE=LOCAL
+_ISVINCPATH=$(_WINCEROOT)\public\common\sdk\inc;
+_OEMINCPATH=$(_WINCEROOT)\public\common\oak\inc;$(_WINCEROOT)\public\common\sdk\inc;
+TARGETNAME=eetiTool
+FILE_VIEW_ROOT_FOLDER= \
+
+FILE_VIEW_RESOURCE_FOLDER= \
+
+FILE_VIEW_INCLUDES_FOLDER= \
+
+SOURCES= \
+
+CDEFINES=$(CDEFINES) -DeetiTool_EXPORTS
+TARGETLIBS= \
+    $(_PROJECTROOT)\cesysgen\sdk\lib\$(_CPUINDPATH)\coredll.lib \
+
+TARGETTYPE=NOTARGET
+FILE_VIEW_PARAMETER_FOLDER= \
+    eetiTouchp.bib \
+    eetiTouchp.reg \
+

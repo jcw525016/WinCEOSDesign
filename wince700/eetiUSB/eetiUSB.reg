@@ -1,0 +1,17 @@
+   	[HKEY_LOCAL_MACHINE\Drivers\USBTouch]
+   		"DLL"="USBTouch.dll"
+   		"Prefix"="TUB"
+
+	[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\TOUCH]
+	"DriverName"="touch.dll"
+	"CalibrationData"="102,102 1945,102 1945,1945 102,1945"
+   
+   
+	[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\3823\0_0_0\255_255_255\USB_TOUCH_Driver]
+		"DLL"="USBTouch.dll"
+
+
+	;for Hid class	
+	[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\3823\Default\3\USB_TOUCH_Driver]
+		"DLL"="USBTouch.dll"
+	
